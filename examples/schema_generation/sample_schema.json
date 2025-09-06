@@ -1,0 +1,119 @@
+{
+  "DelayRule": {
+    "fields": {
+      "threshold_minutes": {
+        "type": "int",
+        "required": true,
+        "default": null,
+        "description": "Minimum delay in minutes required for auto-payout eligibility.",
+        "constraints": { "ge": 0 }
+      }
+    },
+    "class_description": "Policy delay rule specifying the minimum delay for auto-payout eligibility.",
+    "base_classes": ["BaseModel"]
+  },
+
+  "EligibilityResult": {
+    "fields": {
+      "eligible_for_auto_payout": {
+        "type": "str",
+        "required": true,
+        "default": null,
+        "description": "Indicates if the claim is eligible for auto-payout ('yes' or 'no').",
+        "constraints": { "min_length": 2, "max_length": 3 }
+      },
+      "delay_minutes": {
+        "type": "int",
+        "required": true,
+        "default": null,
+        "description": "Total delay in minutes between scheduled and actual arrival.",
+        "constraints": { "ge": 0 }
+      },
+      "suggested_payout_euros": {
+        "type": "float",
+        "required": true,
+        "default": null,
+        "description": "Suggested payout amount in euros based on the delay and policy.",
+        "constraints": { "ge": 0.0 }
+      },
+      "reason": {
+        "type": "str",
+        "required": true,
+        "default": null,
+        "description": "Explanation for eligibility decision, including delay and threshold details.",
+        "constraints": { "min_length": 5, "max_length": 200 }
+      }
+    },
+    "class_description": "Eligibility result for the travel delay claim.",
+    "base_classes": ["BaseModel"]
+  },
+
+  "TravelDelayClaimInput": {
+    "fields": {
+      "flight_departure_datetime": {
+        "type": "str",
+        "required": true,
+        "default": null,
+        "description": "Scheduled flight departure datetime in ISO-8601 format.",
+        "constraints": {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})?$"
+        }
+      },
+      "flight_arrival_datetime": {
+        "type": "str",
+        "required": true,
+        "default": null,
+        "description": "Scheduled flight arrival datetime in ISO-8601 format.",
+        "constraints": {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})?$"
+        }
+      },
+      "actual_arrival_datetime": {
+        "type": "str",
+        "required": true,
+        "default": null,
+        "description": "Actual flight arrival datetime in ISO-8601 format.",
+        "constraints": {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})?$"
+        }
+      },
+      "delay_rule": {
+        "type": "DelayRule",
+        "required": true,
+        "default": null,
+        "description": "Policy delay rule specifying the minimum delay for auto-payout eligibility.",
+        "constraints": null
+      },
+      "customer_policy_id": {
+        "type": "Optional[str]",
+        "required": false,
+        "default": null,
+        "description": "Optional customer policy ID for confidence scoring or tracking.",
+        "constraints": null
+      }
+    },
+    "class_description": "Input data for the travel delay claim.",
+    "base_classes": ["BaseModel"]
+  },
+
+  "TravelDelayClaimMaster": {
+    "fields": {
+      "input_data": {
+        "type": "TravelDelayClaimInput",
+        "required": true,
+        "default": null,
+        "description": "Input data for the travel delay claim.",
+        "constraints": null
+      },
+      "eligibility_result": {
+        "type": "EligibilityResult",
+        "required": true,
+        "default": null,
+        "description": "Eligibility result for the travel delay claim.",
+        "constraints": null
+      }
+    },
+    "class_description": "Master aggregation class for travel delay claim processing, combining input data and eligibility result.",
+    "base_classes": ["BaseModel"]
+  }
+}

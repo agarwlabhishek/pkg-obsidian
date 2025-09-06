@@ -1,0 +1,99 @@
+**Hospital Medical Report**
+
+**Patient Name:** John Doe
+**Medical Record #:** 123456789
+**Date of Birth:** 1975-04-12
+**Admission Date:** 2025-06-27
+**Report Date:** 2025-06-30
+**Attending Physician:** Dr. Emily Zhang, MD
+
+---
+
+### 1. Reason for Admission
+
+The patient was admitted for evaluation and management of acute chest pain and shortness of breath.
+
+### 2. History of Present Illness
+
+John Doe, a 50-year-old male with a history of hypertension and hyperlipidemia, presented to the emergency department on 2025-06-27 with a 2-hour history of substernal chest pressure radiating to the left arm, associated with diaphoresis and dyspnea. The pain onset was at rest, score 8/10, non-positional, not relieved by antacids.
+
+### 3. Past Medical History
+
+* Hypertension (diagnosed 2015)
+* Hyperlipidemia (diagnosed 2018)
+* No history of diabetes, CAD, or smoking.
+
+### 4. Medications on Admission
+
+* Lisinopril 20 mg daily
+* Atorvastatin 40 mg nightly
+* Aspirin 81 mg daily
+
+### 5. Allergies
+
+* No known drug allergies.
+
+### 6. Physical Examination
+
+**Vital Signs (2025-06-30, 08:00):**
+
+* Temperature: 37.2 °C
+* Heart Rate: 88 bpm
+* Blood Pressure: 142/86 mmHg
+* Respiratory Rate: 18/min
+* SpO₂: 96% on room air
+
+**General:** Alert, oriented, in mild distress.
+**Cardiovascular:** Regular rate and rhythm, no murmurs, S1/S2 normal.
+**Respiratory:** Clear to auscultation bilaterally, no wheezes or crackles.
+**Abdomen:** Soft, non-tender, no hepatosplenomegaly.
+**Extremities:** No edema, pulses 2+ bilaterally.
+**Neurologic:** Cranial nerves II–XII intact, no focal deficits.
+
+### 7. Laboratory Results
+
+| Test                | Admission (06/27) | 06/29 | Reference Range |
+| ------------------- | ----------------- | ----- | --------------- |
+| Troponin I (ng/mL)  | 0.02              | 0.01  | < 0.04          |
+| CK-MB (ng/mL)       | 2.0               | 1.5   | 0.6–6.3         |
+| BNP (pg/mL)         | 150               | —     | < 100           |
+| WBC (×10³/µL)       | 8.5               | 7.8   | 4.0–11.0        |
+| Hemoglobin (g/dL)   | 14.2              | 13.9  | 13.5–17.5       |
+| Platelets (×10³/µL) | 220               | 210   | 150–400         |
+| Na⁺ (mmol/L)        | 138               | 137   | 135–145         |
+| K⁺ (mmol/L)         | 4.2               | 4.0   | 3.5–5.0         |
+| Creatinine (mg/dL)  | 0.9               | 1.0   | 0.7–1.3         |
+
+### 8. Imaging
+
+* **ECG (06/27):** Normal sinus rhythm, no ST-T changes suggestive of ischemia.
+* **Chest X-Ray (06/27):** Cardiothoracic ratio normal, clear lung fields, no effusion.
+* **Echocardiogram (06/28):** LVEF 60%, no regional wall motion abnormalities.
+
+### 9. Hospital Course
+
+The patient was monitored in the telemetry unit. Chest pain resolved with sublingual nitroglycerin. Serial troponins remained within normal limits. Blood pressure was controlled with adjustment of lisinopril. The patient remained hemodynamically stable, with no recurrent chest pain or arrhythmias.
+
+### 10. Discharge Medications
+
+* Lisinopril 20 mg daily
+* Atorvastatin 40 mg nightly
+* Aspirin 81 mg daily
+* Metoprolol tartrate 25 mg twice daily
+
+### 11. Discharge Instructions
+
+* Follow up with cardiology in 1 week.
+* Continue low-sodium diet and fluid restriction as advised.
+* Monitor blood pressure at home twice daily.
+* Return to ED if chest pain, dyspnea, or syncope occur.
+
+### 12. Follow-Up Plan
+
+* Cardiology clinic on 2025-07-07.
+* Primary care follow-up in 2 weeks for blood pressure management.
+
+**Prepared by:**
+Dr. Emily Zhang, MD
+Cardiology Department
+General Hospital

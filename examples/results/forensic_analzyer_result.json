@@ -1,0 +1,416 @@
+{
+  "file_info": {
+    "file_path": "sample_documents/sample.pdf",
+    "file_name": "sample.pdf",
+    "file_extension": ".pdf",
+    "file_size_bytes": 207412,
+    "file_size_human": "202.55 KB",
+    "file_modified": "2025-06-30T17:07:10.860251",
+    "file_created": "2025-06-30T17:07:15.330125",
+    "analysis_timestamp": "2025-07-23T16:42:47.142172"
+  },
+  "metadata_analysis": {
+    "pdf_metadata": {
+      "CreationDate": "D:20230103160912Z",
+      "Creator": "Adobe InDesign 17.3 (Macintosh)",
+      "ModDate": "D:20230130104206Z",
+      "Producer": "Adobe PDF Library 16.0.7",
+      "Subject": "Motor Fleet policy overview - Allianz product document for policies incepting or renewing from 1 March 2023 - ACOM798_16",
+      "Title": "Motor Fleet policy overview",
+      "Trapped": "/false"
+    },
+    "metadata_issues": []
+  },
+  "integrity_analysis": {
+    "file_hashes": {
+      "md5": "97e153fdc49dfb25fbd32a71767f8ea3",
+      "sha256": "8a49b2fce7c5e55347068053755d9c51bd7bdea5a7d322215adace5f502bb649",
+      "matches_trusted_hash": null
+    },
+    "pdf_structure": {
+      "has_javascript": false,
+      "is_encrypted": false,
+      "has_signatures": false,
+      "incremental_updates": 1,
+      "embedded_files": [],
+      "filters_used": [
+        "/DCTDecode",
+        "/FlateDecode",
+        "pikepdf.Array([ \"/ASCII85Decode\", \"/FlateDecode\" ])"
+      ],
+      "object_counts": {
+        "total_objects": 89,
+        "image_objects": 0,
+        "form_objects": 0,
+        "annotation_objects": 3,
+        "embedded_files": 0
+      },
+      "has_layers": false
+    }
+  },
+  "text_analysis": {
+    "text_extraction": {
+      "pages_with_text": 10,
+      "total_text_length": 17395,
+      "text_blocks": [
+        {
+          "page": 1,
+          "text": "Motor Fleet\npolicy overview\nALLIANZ.CO.UK",
+          "char_count": 41
+        },
+        {
+          "page": 2,
+          "text": "MOTOR FLEET POLICY OVERVIEW\nContents\nThank you for choosing Allianz Insurance plc. We\nare one of the largest general insurers in the UK Introduction 1\nand part of the Allianz Group, one of the world\u2019s\nforemost financial services providers.\nCover 3\nWith Allianz Insurance plc, you can be confident\nFeatures, Exclusions and Limitations 4\nthat you\u2019re insured by a company which is\nAdditional Features 7\nrelentless in its commitment to protecting and\nserving you. You can trust us to insure\nyour business",
+          "char_count": 1430
+        }
+      ]
+    },
+    "font_analysis": {
+      "distinct_fonts": 3,
+      "font_distribution": {
+        "CUTTWI+AllianzNeo-Bold": 2535,
+        "CUTTWI+AllianzNeo-Regular": 14634,
+        "CUTTWI+ZapfDingbatsITC": 68
+      }
+    }
+  },
+  "image_analysis": {
+    "pdf_images": {
+      "total_images": 0,
+      "images_analyzed": 0,
+      "suspicious_images": []
+    },
+    "page_images": {
+      "pages_analyzed": 10,
+      "pages_with_issues": 10,
+      "page_results": [
+        {
+          "page_number": 1,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 1856,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 0.22704219342815032,
+              "noise_std_variation": 1.3665986167366975,
+              "inconsistent_noise": "False"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 0,
+              "discontinuity_ratio": 0.5978896800973306,
+              "suspicious": "True",
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 2,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Inconsistent noise patterns detected in image, possible manipulation",
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 7894,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 1.3208960270987637,
+              "noise_std_variation": 3.9130569953150633,
+              "inconsistent_noise": "True"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 0,
+              "discontinuity_ratio": 1.3012204045366644,
+              "suspicious": "True",
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 3,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 19477,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 1.4363954766406724,
+              "noise_std_variation": 2.751934068133849,
+              "inconsistent_noise": "False"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 0,
+              "discontinuity_ratio": 1.286039512270412,
+              "suspicious": "True",
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 4,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Inconsistent noise patterns detected in image, possible manipulation",
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 8837,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 1.2014130940992231,
+              "noise_std_variation": 4.096741379160586,
+              "inconsistent_noise": "True"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 0,
+              "discontinuity_ratio": 1.2922159485859928,
+              "suspicious": "True",
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 5,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 6666,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 0.8064768262653865,
+              "noise_std_variation": 1.8844353559113352,
+              "inconsistent_noise": "False"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 30,
+              "discontinuity_ratio": 1.0625383453138593,
+              "suspicious": true,
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 6,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 12350,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 1.691556978687389,
+              "noise_std_variation": 2.883864344611824,
+              "inconsistent_noise": "False"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 12,
+              "discontinuity_ratio": 1.2290849298168856,
+              "suspicious": true,
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 7,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 13092,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 1.3648304661516861,
+              "noise_std_variation": 2.8376096460303457,
+              "inconsistent_noise": "False"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 14,
+              "discontinuity_ratio": 1.2343996312822294,
+              "suspicious": true,
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 8,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 11147,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 1.3882481182162372,
+              "noise_std_variation": 2.710129699928794,
+              "inconsistent_noise": "False"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 22,
+              "discontinuity_ratio": 1.166434450365561,
+              "suspicious": true,
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 9,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Inconsistent noise patterns detected in image, possible manipulation",
+            "Edge analysis detected potential splicing artifacts",
+            "Shadow analysis indicates possible inconsistencies in lighting"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 16202,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 1.3104496906034768,
+              "noise_std_variation": 3.0399698002360864,
+              "inconsistent_noise": "True"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 0,
+              "discontinuity_ratio": 1.2920535994558962,
+              "suspicious": "True",
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        },
+        {
+          "page_number": 10,
+          "risk_score": 0,
+          "fraud_indicators": [
+            "Inconsistent noise patterns detected in image, possible manipulation",
+            "Edge analysis detected potential splicing artifacts"
+          ],
+          "analysis_results": {
+            "copy_move": {
+              "performed": true,
+              "keypoints_found": 2297,
+              "similar_regions_found": 0,
+              "suspicious": false,
+              "reason": "No suspicious patterns detected"
+            },
+            "noise": {
+              "performed": true,
+              "region_count": 16,
+              "noise_mean_variation": 0.8393928407814605,
+              "noise_std_variation": 3.9116335451650746,
+              "inconsistent_noise": "True"
+            },
+            "edge_integrity": {
+              "performed": true,
+              "straight_lines": 0,
+              "discontinuity_ratio": 1.3269339356295877,
+              "suspicious": "True",
+              "reason": "Potential splicing artifacts detected"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "summary": {
+    "potential_fraud_indicators": [
+      "PDF has 1 incremental updates, indicating editing",
+      "PDF uses uncommon filters: pikepdf.Array([ \"/ASCII85Decode\", \"/FlateDecode\" ])",
+      "Image analysis found potential manipulation on pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+      "Found 23 image manipulation indicators across pages (see detailed results)"
+    ],
+    "confidence": {},
+    "risk_score": 20,
+    "risk_level": "Medium",
+    "analysis_completed": "2025-07-23T16:43:17.103283",
+    "analysis_successful": true
+  }
+}

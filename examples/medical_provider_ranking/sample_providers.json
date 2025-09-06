@@ -1,0 +1,87 @@
+{
+  "providers": [
+    {
+      "provider_id": "PROV001",
+      "name": "Metropolitan Hospital",
+      "provider_legal_name": "Metropolitan Hospital Inc",
+      "provider_network": "Metro Health Network",
+      "category": "Hospital",
+      "phone_number": "555-0123",
+      "website": "https://metro-hospital.com",
+      "building": "Main Campus",
+      "street": "123 Health Street",
+      "city_name": "New York",
+      "province": "NY",
+      "zip_code": "10001",
+      "country": "United States",
+      "tax_number": "12-3456789"
+    },
+    {
+      "provider_id": "PROV002",
+      "name": "Metro Medical Center",
+      "provider_legal_name": "Metro Medical Center LLC",
+      "provider_network": "Metro Health Network",
+      "category": "Medical Center",
+      "phone_number": "555-0456",
+      "website": "https://metro-medical.com",
+      "street": "456 Care Avenue",
+      "city_name": "New York", 
+      "province": "NY",
+      "zip_code": "10002",
+      "country": "United States",
+      "tax_number": "12-7890123"
+    },
+    {
+      "provider_id": "PROV003",
+      "name": "Manhattan Hospital",
+      "provider_legal_name": "Manhattan Hospital Corporation",
+      "category": "Hospital",
+      "phone_number": "555-0789",
+      "website": "https://manhattan-hospital.org",
+      "street": "789 Medical Plaza",
+      "city_name": "New York",
+      "province": "NY", 
+      "zip_code": "10003",
+      "country": "United States"
+    },
+    {
+      "provider_id": "PROV004",
+      "name": "Methodist Hospital",
+      "provider_legal_name": "Methodist Hospital Inc",
+      "category": "Hospital",
+      "phone_number": "555-1234",
+      "website": "https://methodist-hospital.com",
+      "street": "321 Faith Street",
+      "city_name": "New York",
+      "province": "NY",
+      "zip_code": "10004", 
+      "country": "United States"
+    },
+    {
+      "provider_id": "PROV005",
+      "name": "Memorial Hospital Inc",
+      "provider_legal_name": "Memorial Hospital Corporation",
+      "category": "Hospital",
+      "phone_number": "555-5678",
+      "website": "https://memorial-hospital.net",
+      "street": "654 Memory Lane",
+      "city_name": "New York",
+      "province": "NY",
+      "zip_code": "10005",
+      "country": "United States"
+    },
+    {
+      "provider_id": "PROV006",
+      "name": "St. Mary's Hospital",
+      "provider_legal_name": "Saint Mary's Medical Center Inc",
+      "category": "Hospital",
+      "phone_number": "555-9012",
+      "website": "https://stmarys-hospital.org",
+      "street": "987 Saint Street",
+      "city_name": "New York",
+      "province": "NY",
+      "zip_code": "10006",
+      "country": "United States"
+    }
+  ]
+}
